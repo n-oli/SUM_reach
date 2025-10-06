@@ -163,7 +163,12 @@ def main(args):
         attack_kwargs = {'eps': args.epsilon, 'norm': np.inf}
     elif args.attack == 'pgd':
         attack_fn = projected_gradient_descent
-        attack_kwargs = {'eps': args.epsilon, 'eps_iter': 0.01, 'nb_iter': 40, 'norm': np.inf}
+        # Define PGD parameters based on the Madry et al. paper's recommendations
+        nb_iter = 10  # A reasonable number of iterations for training
+        # Dynamically calculate the step size (eps_iter)
+        eps_iter = (2.5 * args.epsilon) / nb_iter
+        attack_kwargs = {'eps': args.epsilon, 'eps_iter': eps_iter, 'nb_iter': nb_iter, 'norm': np.inf}
+        logging.info(f"Configured PGD with: nb_iter={nb_iter}, eps_iter={eps_iter:.4f}")
     else:
         logging.error(f"Unknown attack type: {args.attack}")
         return

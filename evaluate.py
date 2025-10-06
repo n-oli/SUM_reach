@@ -40,7 +40,7 @@ from model import MalwareDetectionModel
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def evaluate(model, test_loader, device):
+def test(model, test_loader, device):
     """
     Evaluates the model on the test set and returns performance metrics.
 
@@ -110,7 +110,7 @@ def main(args):
     logging.info(f"Test set loaded with {len(test_dataset)} samples.")
 
     # --- Perform Evaluation ---
-    true_labels, pred_labels = evaluate(model, test_loader, device)
+    true_labels, pred_labels = test(model, test_loader, device)
 
     # --- Calculate and Display Metrics ---
     accuracy = accuracy_score(true_labels, pred_labels)
