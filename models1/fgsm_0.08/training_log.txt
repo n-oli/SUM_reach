@@ -1,0 +1,37 @@
+2025-10-07 02:06:35,759 - INFO - --- Starting Adversarial Training (Malware Attacks Only) ---
+2025-10-07 02:06:35,759 - INFO - Device: cuda | Attack: FGSM | Epsilon: 0.08
+2025-10-07 02:06:35,759 - INFO - Output will be saved to: Neural_nets/models1/fgsm_0.08
+2025-10-07 02:06:35,887 - INFO - Data loaders created successfully.
+2025-10-07 02:06:37,689 - INFO - Model, optimizer, and loss function initialized.
+2025-10-07 02:06:37,689 - INFO - Starting training loop...
+2025-10-07 02:07:52,973 - INFO - Epoch 1/20 | Train Loss: 1.0785, Train Acc: 0.6101 | Val Loss: 0.0630, Val Acc: 0.9789
+2025-10-07 02:07:52,992 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:09:07,794 - INFO - Epoch 2/20 | Train Loss: 0.7532, Train Acc: 0.7547 | Val Loss: 0.0533, Val Acc: 0.9819
+2025-10-07 02:09:07,806 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:10:21,281 - INFO - Epoch 3/20 | Train Loss: 0.2240, Train Acc: 0.9253 | Val Loss: 0.0367, Val Acc: 0.9866
+2025-10-07 02:10:21,294 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:11:36,679 - INFO - Epoch 4/20 | Train Loss: 0.1124, Train Acc: 0.9621 | Val Loss: 0.0449, Val Acc: 0.9891
+2025-10-07 02:11:36,700 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:12:49,761 - INFO - Epoch 5/20 | Train Loss: 0.1239, Train Acc: 0.9601 | Val Loss: 0.0459, Val Acc: 0.9843
+2025-10-07 02:14:04,141 - INFO - Epoch 6/20 | Train Loss: 0.0945, Train Acc: 0.9699 | Val Loss: 0.0653, Val Acc: 0.9874
+2025-10-07 02:15:17,829 - INFO - Epoch 7/20 | Train Loss: 0.1150, Train Acc: 0.9684 | Val Loss: 0.0293, Val Acc: 0.9895
+2025-10-07 02:15:17,850 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:16:31,189 - INFO - Epoch 8/20 | Train Loss: 0.1237, Train Acc: 0.9676 | Val Loss: 0.0526, Val Acc: 0.9895
+2025-10-07 02:17:45,680 - INFO - Epoch 9/20 | Train Loss: 0.1273, Train Acc: 0.9720 | Val Loss: 0.0550, Val Acc: 0.9904
+2025-10-07 02:17:45,694 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:18:59,399 - INFO - Epoch 10/20 | Train Loss: 0.1001, Train Acc: 0.9739 | Val Loss: 0.0577, Val Acc: 0.9906
+2025-10-07 02:18:59,411 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:20:11,972 - INFO - Epoch 11/20 | Train Loss: 0.1378, Train Acc: 0.9693 | Val Loss: 0.0295, Val Acc: 0.9910
+2025-10-07 02:20:11,986 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:21:26,995 - INFO - Epoch 12/20 | Train Loss: 0.1413, Train Acc: 0.9672 | Val Loss: 0.0600, Val Acc: 0.9885
+2025-10-07 02:22:40,754 - INFO - Epoch 13/20 | Train Loss: 0.1562, Train Acc: 0.9682 | Val Loss: 0.0412, Val Acc: 0.9925
+2025-10-07 02:22:40,775 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.08/best_model.pth
+2025-10-07 02:23:56,977 - INFO - Epoch 14/20 | Train Loss: 0.1488, Train Acc: 0.9702 | Val Loss: 0.0538, Val Acc: 0.9924
+2025-10-07 02:25:14,631 - INFO - Epoch 15/20 | Train Loss: 0.0935, Train Acc: 0.9794 | Val Loss: 0.0487, Val Acc: 0.9911
+2025-10-07 02:26:27,867 - INFO - Epoch 16/20 | Train Loss: 0.0589, Train Acc: 0.9858 | Val Loss: 0.0605, Val Acc: 0.9898
+2025-10-07 02:27:44,238 - INFO - Epoch 17/20 | Train Loss: 0.0525, Train Acc: 0.9869 | Val Loss: 0.0362, Val Acc: 0.9924
+2025-10-07 02:28:56,857 - INFO - Epoch 18/20 | Train Loss: 0.0656, Train Acc: 0.9850 | Val Loss: 0.0242, Val Acc: 0.9921
+2025-10-07 02:30:11,593 - INFO - Epoch 19/20 | Train Loss: 0.0558, Train Acc: 0.9865 | Val Loss: 0.0489, Val Acc: 0.9910
+2025-10-07 02:31:26,371 - INFO - Epoch 20/20 | Train Loss: 0.0874, Train Acc: 0.9813 | Val Loss: 0.0611, Val Acc: 0.9874
+2025-10-07 02:31:26,372 - INFO - Adversarial training finished.
+2025-10-07 02:31:26,372 - INFO - Best validation accuracy achieved: 0.9925

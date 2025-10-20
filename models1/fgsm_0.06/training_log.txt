@@ -1,0 +1,35 @@
+2025-10-07 01:41:39,645 - INFO - --- Starting Adversarial Training (Malware Attacks Only) ---
+2025-10-07 01:41:39,645 - INFO - Device: cuda | Attack: FGSM | Epsilon: 0.06
+2025-10-07 01:41:39,645 - INFO - Output will be saved to: Neural_nets/models1/fgsm_0.06
+2025-10-07 01:41:39,788 - INFO - Data loaders created successfully.
+2025-10-07 01:41:42,610 - INFO - Model, optimizer, and loss function initialized.
+2025-10-07 01:41:42,610 - INFO - Starting training loop...
+2025-10-07 01:42:56,952 - INFO - Epoch 1/20 | Train Loss: 1.2459, Train Acc: 0.5371 | Val Loss: 0.0800, Val Acc: 0.9733
+2025-10-07 01:42:56,967 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:44:12,049 - INFO - Epoch 2/20 | Train Loss: 0.4656, Train Acc: 0.8643 | Val Loss: 0.0582, Val Acc: 0.9801
+2025-10-07 01:44:12,065 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:45:25,863 - INFO - Epoch 3/20 | Train Loss: 0.1602, Train Acc: 0.9437 | Val Loss: 0.0651, Val Acc: 0.9813
+2025-10-07 01:45:25,876 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:46:41,072 - INFO - Epoch 4/20 | Train Loss: 0.0610, Train Acc: 0.9770 | Val Loss: 0.0302, Val Acc: 0.9906
+2025-10-07 01:46:41,084 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:47:55,277 - INFO - Epoch 5/20 | Train Loss: 0.0428, Train Acc: 0.9842 | Val Loss: 0.0360, Val Acc: 0.9884
+2025-10-07 01:49:08,763 - INFO - Epoch 6/20 | Train Loss: 0.0540, Train Acc: 0.9815 | Val Loss: 0.0289, Val Acc: 0.9907
+2025-10-07 01:49:08,782 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:50:23,078 - INFO - Epoch 7/20 | Train Loss: 0.0493, Train Acc: 0.9835 | Val Loss: 0.0394, Val Acc: 0.9907
+2025-10-07 01:51:36,321 - INFO - Epoch 8/20 | Train Loss: 0.0610, Train Acc: 0.9825 | Val Loss: 0.0402, Val Acc: 0.9860
+2025-10-07 01:52:50,156 - INFO - Epoch 9/20 | Train Loss: 0.0863, Train Acc: 0.9774 | Val Loss: 0.0367, Val Acc: 0.9891
+2025-10-07 01:54:04,072 - INFO - Epoch 10/20 | Train Loss: 0.0687, Train Acc: 0.9788 | Val Loss: 0.0273, Val Acc: 0.9909
+2025-10-07 01:54:04,094 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:55:17,670 - INFO - Epoch 11/20 | Train Loss: 0.0655, Train Acc: 0.9834 | Val Loss: 0.0267, Val Acc: 0.9921
+2025-10-07 01:55:17,683 - INFO - Validation accuracy improved. Saving model to Neural_nets/models1/fgsm_0.06/best_model.pth
+2025-10-07 01:56:32,335 - INFO - Epoch 12/20 | Train Loss: 0.0690, Train Acc: 0.9837 | Val Loss: 0.0340, Val Acc: 0.9910
+2025-10-07 01:57:46,533 - INFO - Epoch 13/20 | Train Loss: 0.0866, Train Acc: 0.9819 | Val Loss: 0.0615, Val Acc: 0.9911
+2025-10-07 01:58:59,747 - INFO - Epoch 14/20 | Train Loss: 0.1195, Train Acc: 0.9803 | Val Loss: 0.0633, Val Acc: 0.9881
+2025-10-07 02:00:15,300 - INFO - Epoch 15/20 | Train Loss: 0.1378, Train Acc: 0.9804 | Val Loss: 0.0245, Val Acc: 0.9910
+2025-10-07 02:01:28,156 - INFO - Epoch 16/20 | Train Loss: 0.0731, Train Acc: 0.9824 | Val Loss: 0.0321, Val Acc: 0.9888
+2025-10-07 02:02:42,307 - INFO - Epoch 17/20 | Train Loss: 0.0938, Train Acc: 0.9812 | Val Loss: 0.0445, Val Acc: 0.9903
+2025-10-07 02:03:56,583 - INFO - Epoch 18/20 | Train Loss: 0.2093, Train Acc: 0.9708 | Val Loss: 0.0514, Val Acc: 0.9893
+2025-10-07 02:05:09,826 - INFO - Epoch 19/20 | Train Loss: 0.1019, Train Acc: 0.9802 | Val Loss: 0.0421, Val Acc: 0.9885
+2025-10-07 02:06:23,599 - INFO - Epoch 20/20 | Train Loss: 0.0723, Train Acc: 0.9857 | Val Loss: 0.0577, Val Acc: 0.9911
+2025-10-07 02:06:23,600 - INFO - Adversarial training finished.
+2025-10-07 02:06:23,600 - INFO - Best validation accuracy achieved: 0.9921
