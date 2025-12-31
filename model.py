@@ -117,7 +117,7 @@ class MalwareDetectionModel(nn.Module):
         
         self.final_activation = nn.Sigmoid()
 
-    def forward(self, api_sequence, global_features):
+    def forward(self, api_sequence, global_features, return_logits=False):
         """
         Defines the forward pass of the model.
 
@@ -159,9 +159,12 @@ class MalwareDetectionModel(nn.Module):
         combined_vector = torch.cat((seq_vector, global_vector), dim=1)
         
         logits = self.classifier(combined_vector)
-        prediction = self.final_activation(logits)
-        
-        return prediction.squeeze(1) # Squeeze to (batch_size) for BCELoss
+        if return_logits:
+            return logits.squeeze(1)
+
+        else:
+            prediction = self.final_activation(logits)
+            return prediction.squeeze(1) # Squeeze to (batch_size) for BCELoss
 
 if __name__ == '__main__':
     # Example of how to instantiate and use the model
